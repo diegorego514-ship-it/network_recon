@@ -26,6 +26,6 @@ try:
         p.close()
         return p
 except:
-        print("[+] Starting Up Network Reconnainsance")
+        print("[-] Failed to Start Up the Network Reconnainsance Tool")
 else:
-        print("[-] Failed To Start Up the Network Reconnainsance Tool")
+        print("[+] Starting Up Network Reconnainsance")
