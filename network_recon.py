@@ -2,6 +2,12 @@ import socket
 import argparse
 import requests
 
+def ip():
+    def port():
+        SERVER_HOST = "192.187.87.120"
+        SERVER_PORT = 5003
+        SERVER_LIST = (ip, port)
+
 def network_recon(ip, port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setdefaulttimeout(5)
